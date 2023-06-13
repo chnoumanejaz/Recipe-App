@@ -6,6 +6,7 @@ import paginationView from './views/paginationView.js';
 import bookmarkView from './views/bookmarkView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODEL_CLOSE_TIME } from './config.js';
+import { async } from 'regenerator-runtime';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
