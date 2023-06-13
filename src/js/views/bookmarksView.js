@@ -1,6 +1,6 @@
 import previewView from './previewView.js';
 import icons from 'url:../../img/icons.svg'; // Parcel 2
-import View from 'View';
+import View from './View';
 
 class BookmarksView extends View {
   _parentElement = document.querySelector('.bookmarks__list');
